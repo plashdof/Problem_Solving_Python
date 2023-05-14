@@ -21,6 +21,10 @@ for i in arr:
 print(maxNum) 
 
 
+# 형변환 없이 아래로직으로 자릿수합 가능
+# while x>0:
+#     sum+=x%10
+#     x=x//10
 
 
 

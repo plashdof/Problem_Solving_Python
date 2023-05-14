@@ -30,6 +30,14 @@ for i in nums:
     if(isPrime(num)):
         print(num,end=" ")
 
+# 형변환 없이 숫자 뒤집기
 
+# def reverse(x):
+#     res=0
+#     while x>0:
+#         t=x%10
+#         res=res*10+t
+#         x=x//10
+#     return res
 
 
