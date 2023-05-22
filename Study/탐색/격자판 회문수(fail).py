@@ -1,4 +1,7 @@
 
+# temp = arr[j:j+5][i] 앞 행은 리스트가 아니라서 슬라이싱이 안됨!!!
+# for문으로 처리!
+
 arr = [list(map(int,input().split())) for _ in range(7)]
 
 count = 0
