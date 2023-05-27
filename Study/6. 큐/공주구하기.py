@@ -20,6 +20,8 @@ while len(deq) > 1:
 print(deq[0])
 
 
+# cnt 변수를 설정하지 않고 for문으로 K번 돌리기
+
 # while dq:
 #     for _ in range(k-1):
 #         cur=dq.popleft()
