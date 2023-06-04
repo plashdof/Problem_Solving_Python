@@ -1,3 +1,6 @@
+
+# 내풀이
+
 import sys
 
 def DFS(n):
@@ -36,25 +39,24 @@ print("NO")
 
 # 또한, sum 이 total의 절반보다 클 경우, 재귀를 계속하지않고 종료시켜 시간복잡도를 줄임!!
 
+import sys 
 
-# import sys 
-
-# def DFS(n,sum):
-#     if sum > total//2:
-#         return 
-#     elif n==N:
-#         if sum == (total - sum):
-#             print("YES")
-#             sys.exit(0)
-#     else:
-#         DFS(n+1,sum+arr[n])
-#         DFS(n+1,sum)
+def DFS(n,sum):
+    if sum > total//2:
+        return 
+    elif n==N:
+        if sum == (total - sum):
+            print("YES")
+            sys.exit(0)
+    else:
+        DFS(n+1,sum+arr[n])
+        DFS(n+1,sum)
         
-# N = int(input())
-# arr = list(map(int,input().split()))
-# total = sum(arr)
-# DFS(0,0)
-# print("NO")
+N = int(input())
+arr = list(map(int,input().split()))
+total = sum(arr)
+DFS(0,0)
+print("NO")
 
 
 

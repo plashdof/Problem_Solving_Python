@@ -1,5 +1,5 @@
 
-# 두번째 버전. 이래도 TimeLimit 발생한다!
+# 내풀이
 
 def DFS(n,sum):
     global max 
@@ -22,7 +22,10 @@ DFS(0,0)
 print(max)
 
 
-# Cut Edge 기술!
+
+
+
+# Cut Edge Skill
 
 # totalsum 은, 판단을 이미 한(이미 지나온) 원소들의 합
 # total - totalsum 은, 앞으로 남아있는 판단해야될 원소들의 합
